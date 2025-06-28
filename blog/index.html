@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evercore Blog</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .blog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .post {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .post h3 {
+      margin-top: 0;
+    }
+    .post p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📝 Evercore Blog</h1>
+    <p>Ideas. Insights. Innovations.</p>
+  </header>
+
+  <div class="blog-container">
+    <div class="post">
+      <h3>Welcome to Evercore Blog</h3>
+      <p>This is your first blog post. You can edit it anytime.</p>
+    </div>
+    <div class="post">
+      <h3>Build Your Dream Platform</h3>
+      <p>You're on the path to creating a multi-site ecosystem — all under one domain!</p>
+    </div>
+    <div class="post">
+      <h3>Next: Add Markdown Support</h3>
+      <p>Coming soon: Create blog posts by just writing `.md` files!</p>
+    </div>
+  </div>
+</body>
+</html>
